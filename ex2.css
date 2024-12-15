@@ -1,0 +1,25 @@
+div {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+  }
+  div > span {
+    width: 90px;
+    height: 30px;
+    margin:5px;
+    float: left;
+    border: black solid 2px;
+
+  }
+  div > span:nth-child(even) {
+    display: none;
+
+
+  }
+
+  div > span:nth-child(odd) {
+    background-color:red;
+    margin-top: 0; 
+  }
